@@ -4,7 +4,7 @@ from azure.core.credentials import AzureKeyCredential
 from azure.search.documents import SearchClient
 
 openai.api_key = ""
-openai.api_base = ""
+openai.api_base = "changed"
 openai.api_type = "azure"
 openai.api_version = "2023-03-15-preview"
 deployment_name="chatgpt"
